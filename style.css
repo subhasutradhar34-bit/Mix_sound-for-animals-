@@ -6,20 +6,20 @@
 }
 
 :root{
- background-color:#85a3d4;
+ background-color:#88b1ea;
 }
 
 body{
   font-family:'Times New Roman', Times, serif;
-  background: rgb(145, 145, 234);
-  color: #f1ecec;
+  background: rgb(234, 202, 220);
+  color: #c31717;
   padding: 20px;
   text-align: center;
 }
 
 h1,h {
-  font-size: 2cm;
-  margin-bottom: 40px;
+  font-size: 1.5cm;
+  margin-bottom: 30px;
   font-weight: 600;
 }
 
@@ -34,6 +34,7 @@ p {
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
+  background-color: #9763e4;
   align-items: start;
   max-width: 1000px;
   margin: auto;
@@ -44,7 +45,7 @@ p {
   background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
   border-radius: 14px;
   padding: 14px;
-  box-shadow: 0 6px 20px rgba(2,6,23,0.6);
+  box-shadow: 0 6px 20px rgba(1, 2, 6, 0.6);
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -103,10 +104,14 @@ button.Four{
   background: linear-gradient(90deg, #be1686, #e60a5b);
   color: white;
 }
+button.Five{
+ background: linear-gradient(90deg, #240650, #a8e00e);
+  color: white;
+}
 /* Hover/active states */
 .container button:hover{
   transform: translateY(-3px);
-  box-shadow: 0 10px 26px rgba(8,14,30,0.6);
+  box-shadow: 0 10px 26px rgba(219, 13, 13, 0.6);
 }
 
 .container button:active{
